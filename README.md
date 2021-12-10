@@ -1,6 +1,4 @@
 # poker_card
-# Assignment 1-1
-
 Consider a standard 52-card deck. Each card has a suit of either clubs, diamonds, hearts or spades. Each card also has a value (or face) of either 2 through 10, jack, queen,
 king, or ace. A poker hand consists of five cards dealt from the deck. Poker cards are ranked first by their values then by their suits, given that spades > hearts > diamonds > clubs. Poker hands are ranked by their nine patterns as follows (from the largest to the smallest).
 
@@ -72,21 +70,9 @@ SA-high card
 D5 H6 CQ HK SA
 ```
 
-You can always assume the user inputs legitimate data. **No input checking is required**.
-
----
-## Grading Criteria ##
-### Correctness 70% + Coding style 30%###
-You should follow the [Github coding style] (https://github.com/MaJerle/c-code-style#variables) as this contributes to 30% of your grades. Note that you will ONLY get style points if your program is correct on at least some of our hidden cases. In other words, if your program cannot work, you won't get any style points.
-
-
-
-Make sure you pass all test cases before submission. Any submissions after the deadline will **NOT be counted**. 
-
+## [Github coding style] (https://github.com/MaJerle/c-code-style#variables) ##
 
 # Assignment 1-2
-
-
 ---
 ## What you need to do ##
 
@@ -120,17 +106,4 @@ Your program should output
 ```js
 C10 CJ CQ CK CA == C10 CJ CQ CK CA
 ```
-Note that your comparison should comply with the rules of ordinary card games. Althought different patterns have different comparison rules, we always compare hands according to their largest element first. If they are equal, we always compare them accoding to their smaller elements in order. For example, for high cards, we compare their largest card first, followed by their second largest and so on so forth. Their should not be any confusion. If you are not familiar with card games, do ask the TAs about them.
-
-You can always assume the user inputs legitimate data. **No input checking is required**.
-
 ---
-## Grading Criteria ##
-### Correctness 70% + Coding style 30%###
-You should follow the [Github coding style] (https://github.com/MaJerle/c-code-style#variables) as this contributes to 30% of your grades. Note that you will ONLY get style points if your program is correct on at least some of our hidden cases. In other words, if your program cannot work, you won't get any style points.
-
-
-
-Make sure you pass all test cases before submission. Any submissions after the deadline will **NOT be counted**. 
-
-
